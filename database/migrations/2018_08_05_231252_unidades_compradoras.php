@@ -15,7 +15,7 @@ class UnidadesCompradoras extends Migration
     {
         Schema::create('unidades_compradoras', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('codigo')->unique();
+            $table->string('codigo');
             $table->string('uge');
             $table->string('orgao');
             $table->string('gestao');

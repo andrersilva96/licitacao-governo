@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Municipios extends Model
+class Orgaos extends Model
 {
-    protected $fillable = ['codigo', 'nome', 'uf'];
+    protected $fillable = ['codigo', 'nome'];
 }
